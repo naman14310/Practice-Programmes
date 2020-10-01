@@ -1,13 +1,13 @@
-#include <iostream>
+#include <bits/stdc++.h>
 using namespace std;
 
 int main()
 {
-	int arr[10] = {1,12,43,2,3,224,77,100,15,10};
+	int arr[13] = {1,12,43,2,3,224,77,100,15,10,45,65,123};
 	int no, flag=0, pos;
 	cout<<"Enter no. you want search : ";
 	cin>>no;
-	for(int i=0 ; i<10 ; i++)
+	for(int i=0;i<13;i++)
 	{
 		if(arr[i]==no){
 			flag=1;
