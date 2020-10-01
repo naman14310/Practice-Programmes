@@ -1,5 +1,5 @@
 #include<bits/stdc++.h>
-#include<string.h>
+
 using namespace std;
 
 
@@ -8,9 +8,7 @@ int main()
     string s1;
     int i=0, len=0, temp=0;
     cout<<"Enter string : ";
-    cin>>s1;
-    
-    while(s1[temp]!='\0')
+
     {
     	len++;
     	temp++;
@@ -23,7 +21,7 @@ int main()
     	i++;
 	}
     
-    cout<<s2;
+    cout<<s2;*/
     
 } 
 
