@@ -1,4 +1,4 @@
-#include<iostream>
+#include<bits/stdc++.h>
 #include<string.h>
 using namespace std;
 
@@ -7,13 +7,13 @@ int main()
     string s1;
     int i=0, len=0, temp=0, flag=0;
     cout<<"Enter string : ";
-    getline(cin, s1);
+    cin>>s1;
     
     while(s1[temp]!='\0')
     {
     	len++;
     	temp++;
-	}
+    }
     
     while(i<len/2)
     {
@@ -26,9 +26,9 @@ int main()
 	}
 	
 	if(flag==0)
-	cout<<"It is palindrome";
+	cout<<"The string is palindrome";
 	else
-	cout<<"It is not a palindrome";
+	cout<<"The string  is not a palindrome";
 	
 return 0;
 } 
